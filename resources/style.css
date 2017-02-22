@@ -1,29 +1,87 @@
 /* Tea Cozy Project */
 
 
-
 /* Body & HTML */
 
+html{
+  font-size: 16px;
+  font-family: Helvetica;
+  margin: 0;
+}
 
-
-
+body{
+  margin: 0;
+}
 
 /* Header Section */
 
+.header{
+  height: 4.3125rem;
+  background-color: #000;
+  position: fixed;
+  font-size: 22px;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+}
 
+.tclogo{
+  height: 3.125rem;
+  padding-left: 1.2rem;
+}
 
+.nav li{
+  display: inline;
+  text-decoration: underline;
+  padding: 0.625rem;
+}
 
-
+a{
+  color: seashell;
+}
 
 
 
 /* Mission Section */
 
+.header-pic{
+  background-image: url("mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 95%;
+  margin: auto 0;
+}
 
+.mission{
+  position:relative;
+  padding-top: 38px;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
 
+.quote{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-top: 280px;
+  background-color: #000;
+  color: seashell;
+}
 
+h2, h3, h4, h5, h6, p{
+  color: seashell;
+}
 
-
+.quote h3{
+  padding: 10px 0;
+}
 
 /* Tea of the Month Section */
 
